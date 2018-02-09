@@ -165,6 +165,12 @@ exports.troy = new Type('Troy', {
   eagerPattern: /^9792/
 })
 
+exports.vegas = new Type('VegasCard', {
+  pattern: /^(6048402\d{9})|(606320\d{10})$/,
+  eagerPattern: /^6/,
+  groupPattern: group19
+})
+
 },{"./type":4}],6:[function(_dereq_,module,exports){
 'use strict'
 
